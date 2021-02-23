@@ -7,6 +7,9 @@
 # in case we have some leftover temporary build output
 /kui
 
+# tsc compiled code
+/lib
+
 # webpack and electron staging directories
 kui-*-tmp
 

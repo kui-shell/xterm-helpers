@@ -1,0 +1,20 @@
+{
+  "include": ["src"],
+  "exclude": ["**/flycheck*.ts"],
+  "compilerOptions": {
+    "outDir": "lib",
+    "removeComments": false,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "ES2016",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "lib": ["dom", "esnext", "es6", "dom.iterable", "scripthost"]
+  }
+}
