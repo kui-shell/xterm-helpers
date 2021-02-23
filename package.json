@@ -11,6 +11,10 @@
     "xterm": "4.10.0",
     "typescript": "4.1.3"
   },
+  "bugs": {
+    "url": "https://github.com/kui-shell/xterm-helpers/issues"
+  },
+  "homepage": "https://github.com/kui-shell/xterm-helpers#readme",
   "keywords": [],
   "author": "Mengting Yan",
   "license": "MIT",
