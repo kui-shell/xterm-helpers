@@ -53,6 +53,7 @@ export const BOLD_CLASS = 'xterm-bold'
 export const DIM_CLASS = 'xterm-dim'
 export const ITALIC_CLASS = 'xterm-italic'
 export const UNDERLINE_CLASS = 'xterm-underline'
+export const STRIKETHROUGH_CLASS = 'xterm-strikethrough';
 export const CURSOR_CLASS = 'xterm-cursor'
 export const CURSOR_BLINK_CLASS = 'xterm-cursor-blink'
 export const CURSOR_STYLE_BLOCK_CLASS = 'xterm-cursor-block'
@@ -91,6 +92,10 @@ export default function prepareCellForDomRenderer(_workCell: IBufferCell) {
 
   if (_workCell.isUnderline()) {
     classList.push(UNDERLINE_CLASS)
+  }
+
+  if (_workCell.isStrikethrough()) {
+    classList.push(STRIKETHROUGH_CLASS)
   }
 
   if (_workCell.isInvisible()) {
