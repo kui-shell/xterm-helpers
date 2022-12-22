@@ -1,6 +1,6 @@
 {
   "name": "@kui-shell/xterm-helpers",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Utility package to offer some higher level API over xterm",
   "main": "lib/index.js",
   "scripts": {
